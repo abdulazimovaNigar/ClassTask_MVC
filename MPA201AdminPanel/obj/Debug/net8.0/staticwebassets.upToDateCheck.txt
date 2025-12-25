@@ -23,7 +23,7 @@ wwwroot\Admin\assets\vendors\mdi\fonts\materialdesignicons-webfont.woff
 wwwroot\Admin\assets\vendors\mdi\fonts\materialdesignicons-webfont.ttf
 wwwroot\Admin\assets\vendors\mdi\fonts\materialdesignicons-webfont.eot
 wwwroot\Admin\assets\vendors\mdi\css\materialdesignicons.min.css.map
-wwwroot\Admin\assets\vendors\mdi\css\materialdesignicons.min.css
+wwwroot\Admin\assets\js\flot-chart.js
 wwwroot\Admin\assets\vendors\js\vendor.bundle.base.js
 wwwroot\Admin\assets\vendors\js\bootstrap.min.js.map
 wwwroot\Admin\assets\vendors\jquery-file-upload\uploadfile.css
@@ -620,7 +620,7 @@ wwwroot\Admin\assets\js\formpickers.js
 wwwroot\Admin\assets\js\form-validation.js
 wwwroot\Admin\assets\js\form-repeater.js
 wwwroot\Admin\assets\js\form-addons.js
-wwwroot\Admin\assets\js\flot-chart.js
+wwwroot\Admin\assets\vendors\mdi\css\materialdesignicons.min.css
 wwwroot\Admin\assets\js\file-upload.js
 wwwroot\Admin\assets\js\editorDemo.js
 wwwroot\Admin\assets\js\editorDemo-dark.js
@@ -809,10 +809,10 @@ wwwroot\Admin\assets\fonts\Roboto\Roboto-Black.woff2
 wwwroot\Admin\assets\fonts\Roboto\Roboto-Black.woff
 wwwroot\Admin\assets\fonts\Roboto\Roboto-Black.ttf
 wwwroot\Admin\assets\fonts\Roboto\Roboto-Black.eot
-wwwroot\Admin\assets\css\style.css
-wwwroot\Admin\assets\css\maps\style.css.map
-wwwroot\css\bootstrap.min.css
 wwwroot\css\style.css
+wwwroot\scss\style.scss
+wwwroot\css\bootstrap.min.css
+wwwroot\Admin\assets\css\style.css
 wwwroot\css\tiny-slider.css
 wwwroot\images\bag.svg
 wwwroot\images\bowl-2.png
@@ -848,4 +848,4 @@ wwwroot\images\why-choose-us-img.jpg
 wwwroot\js\bootstrap.bundle.min.js
 wwwroot\js\custom.js
 wwwroot\js\tiny-slider.js
-wwwroot\scss\style.scss
+wwwroot\Admin\assets\css\maps\style.css.map

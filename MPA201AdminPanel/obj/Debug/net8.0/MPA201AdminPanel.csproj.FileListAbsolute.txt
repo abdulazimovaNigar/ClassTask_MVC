@@ -253,3 +253,4 @@ D:\2442r\CFF\csharp\adminPanel\MPA201AdminPanel\MPA201AdminPanel\bin\Debug\net8.
 D:\2442r\CFF\csharp\adminPanel\MPA201AdminPanel\MPA201AdminPanel\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.Scripting.resources.dll
 D:\2442r\CFF\csharp\adminPanel\MPA201AdminPanel\MPA201AdminPanel\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.Scripting.resources.dll
 D:\2442r\CFF\csharp\adminPanel\MPA201AdminPanel\MPA201AdminPanel\obj\Debug\net8.0\scopedcss\Areas\Admin\Views\Shared\_Layout.cshtml.rz.scp.css
+D:\2442r\CFF\csharp\adminPanel\MPA201AdminPanel\MPA201AdminPanel\obj\Debug\net8.0\MPA201AdminPanel.sourcelink.json

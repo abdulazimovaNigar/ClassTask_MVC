@@ -1,6 +1,7 @@
 ﻿
 using Microsoft.AspNetCore.Mvc;
 using MPA201AdminPanel.Contexts;
+using MPA201AdminPanel.Migrations;
 using MPA201AdminPanel.Models;
 
 namespace MPA201AdminPanel.Areas.Admin.Controllers;
@@ -18,6 +19,7 @@ public class ProductController : Controller
     public IActionResult Index()
     {
         var products = _context.Products.ToList();
+        ViewBag.Products = products;
         return View(products);
     }
 

@@ -1,0 +1,24 @@
+﻿﻿
+@model Blog
+
+<form asp-area="Admin" asp-controller="blog" asp-action="create" method="post">
+    <div class="form-group">
+        <label asp-for="@Model.Title">Title</label>
+        <input asp-for="@Model.Title" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter title">
+        @* <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small> *@
+    </div>
+    <div class="form-group">
+        <label asp-for="@Model.Text">Text</label>
+        <input asp-for="@Model.Text" class="form-control">
+    </div>
+    <div class="form-group">
+        <label asp-for="@Model.ImageName">ImageName</label>
+        <input asp-for="@Model.ImageName" class="form-control">
+    </div>
+    <div class="form-group">
+        <label asp-for="@Model.ImageURL">ImageUrl</label>
+        <input asp-for="@Model.ImageURL" class="form-control">
+    </div>
+    <a asp-area="admin" asp-controller="blog" asp-action="index">Cancel</a>
+    <button type="submit" class="btn btn-primary">Create</button>
+</form>

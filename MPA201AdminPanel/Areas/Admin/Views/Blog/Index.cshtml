@@ -1,0 +1,55 @@
+﻿@*
+    Blog
+*@﻿
+@model List<Blog>
+
+<form asp-area="admin" asp-controller="Blog" asp-action="Create" method="post">
+    <button type="submit" class="btn btn-success">Create</button>
+</form>
+<table class="table">
+    <thead>
+        <tr>
+            <th scope="col">ID</th>
+            <th scope="col">Name</th>
+            <th scope="col">Price</th>
+            <th scope="col">Image</th>
+            <th scope="col">CreatedDate</th>
+            <th scope="col">UpdatedDate</th>
+            <th scope="col">Activeness</th>
+            <th scope="col">Actions</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var blog in Model)
+        {
+            <tr>
+                <th scope="row">@blog.Id</th>
+                <td>@blog.Title</td>
+                <td>@blog.Text</td>
+                <td>@blog.PostedDate</td>
+                <td>@blog.ImageName</td>
+                <td><img src="@blog.ImageURL" /></td>
+                <td>@blog.CreatedDate</td>
+                <td>@blog.UpdatedDate</td>
+                <td>
+                    @if (blog.IsDeleted)
+                    {
+                        <span class="badge bg-danger">Deleted</span>
+                    }
+                    else
+                    {
+                        <span class="badge bg-success">Active</span>
+                    }
+                </td>
+                <td>
+                    <a asp-controller="Blog" asp-action="Update" asp-route-id="@blog.Id" class="btn btn-warning">Edit</a>
+                    <form asp-area="admin" asp-controller="blog" asp-action="delete" method="post" asp-route-id="@blog.Id">
+                        <button class="btn btn-danger" type="submit">Delete</button>
+                    </form>
+                   
+
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
